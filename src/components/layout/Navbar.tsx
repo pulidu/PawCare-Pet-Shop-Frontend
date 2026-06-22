@@ -277,4 +277,7 @@ export default function Navbar() {
       </AnimatePresence>
     </nav>
   );
+
+  //nav bar with logo, links, search, cart, user menu, and mobile responsiveness
+  
 }
