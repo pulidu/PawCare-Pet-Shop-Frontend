@@ -64,10 +64,29 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-8">
-          <Link to="/" className="flex items-center gap-2">
-            <PawPrint className="h-7 w-7 text-primary" />
-            <span className="text-2xl font-bold gradient-text">PET</span>
-          </Link>
+          <Link to="/" className="flex items-center gap-3">
+  <img
+    src="/Logo.png"
+    alt="CarePaw VetCare Plus"
+    className="h-12 w-auto object-contain"
+  />
+
+  <div className="flex flex-col leading-none">
+    <div className="flex items-center text-3xl font-extrabold tracking-tight">
+      <span className="text-[#123B6D]">
+        Care
+      </span>
+
+      <span className="text-[#18B6A4]">
+        Paw
+      </span>
+    </div>
+
+    <span className="mt-1 text-[11px] font-bold tracking-[0.35em] text-[#123B6D]">
+      VETCARE PLUS
+    </span>
+  </div>
+</Link>
 
           <div className="hidden md:flex md:items-center md:gap-1">
             {navLinks.map((link) => (
