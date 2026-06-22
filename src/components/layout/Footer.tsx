@@ -143,4 +143,5 @@ export default function Footer() {
       </div>
     </footer>
   );
+  //footer with company info, contact details, social links, navigation links, and newsletter subscription form
 }
